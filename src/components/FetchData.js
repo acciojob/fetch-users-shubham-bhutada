@@ -14,7 +14,7 @@ const FetchData = () => {
   return (
     <div>
         <span>Blue Whales</span>
-        <button onClick={fetchusers}>Get User List</button>
+        <button className='btn' onClick={fetchusers}>Get User List</button>
         <table>
             <thead>
                 <tr>

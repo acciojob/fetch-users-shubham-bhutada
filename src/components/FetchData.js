@@ -25,7 +25,7 @@ const FetchData = () => {
                 </tr>
             </thead>
             <tbody>
-                {userlist.length===0 ? <tr>No data found to display</tr>:
+                {userlist.length===0 ? <tr><td>No data found to display</td></tr>:
                 (userlist.map(item => (
                     <tr>
                         <td>{item.first_name}</td>
